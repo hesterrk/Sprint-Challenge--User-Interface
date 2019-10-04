@@ -238,3 +238,13 @@ a {
     width: 45%;
     
 }
+.workbox {
+    border: 1px green solid;
+    width: 45%;
+
+}
+
+.toptwoboxes {
+    display: flex;
+    
+}
