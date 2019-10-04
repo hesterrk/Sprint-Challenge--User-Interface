@@ -56,6 +56,11 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    margin: 0 auto;
+    width: 876px;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -143,4 +148,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.servicesnavigation {
+    border: 1px red solid;
+    display: flex;
+    justify-content: space-between;
+
 }
