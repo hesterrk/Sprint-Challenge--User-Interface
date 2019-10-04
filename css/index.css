@@ -194,5 +194,20 @@ a {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+    align-items: center;
 
+    
+
+}
+
+.flexcontainer {
+   display: flex;
+   border: 1px blue solid;
+   width: 650px;
+   justify-content: space-between;
+   
+
+
+
+    
 }
