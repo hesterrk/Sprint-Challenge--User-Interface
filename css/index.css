@@ -190,7 +190,7 @@ a {
 }
 
 .servicesnavigation {
-    border: 1px red solid;
+    
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -202,7 +202,7 @@ a {
 
 .flexcontainer {
    display: flex;
-   border: 1px blue solid;
+
    width: 650px;
    justify-content: space-between;
  
@@ -216,8 +216,9 @@ a {
 }
 
 .aboutheader {
-    border-bottom: 2px black dashed;
+    border-bottom: 1px black dashed;
     padding-bottom: 20px;
+    padding-top: 10px;
     
     
 }
@@ -228,18 +229,18 @@ a {
 }
 
 .maincontent {
-    border: 1px red solid;
+    
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .strategybox {
-    border: 1px blue solid;
+    
     width: 45%;
     
 }
 .workbox {
-    border: 1px green solid;
+
     width: 45%;
 
 }
@@ -248,6 +249,10 @@ a {
     display: flex;
     justify-content: space-between;
     
+}
+
+.toptwoboxes {
+    padding-top: 20px;
 }
 
 .learnmore {
@@ -261,7 +266,7 @@ a {
 }
 
 .placesbox {
-    border: 1px pink solid;
+
     width: 45%;
 }
 
@@ -271,4 +276,14 @@ a {
 
 .bottomtwoboxes {
     border-bottom: 1px black dashed;
+    border-top: 1px black dashed;
+    padding-top: 20px;
+}
+
+.together {
+    padding-top: 20px;
+}
+
+.lastbit {
+    padding-bottom: 20px;
 }
