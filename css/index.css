@@ -244,7 +244,7 @@ a {
 
 }
 
-.toptwoboxes {
+.toptwoboxes, .bottomtwoboxes {
     display: flex;
     justify-content: space-between;
     
@@ -257,5 +257,18 @@ a {
     padding: 5px 20px 5px 20px;
     border-radius: 4px;
 
-    
+
+}
+
+.placesbox {
+    border: 1px pink solid;
+    width: 45%;
+}
+
+.collabbox {
+    width: 45%;
+}
+
+.bottomtwoboxes {
+    border-bottom: 1px black dashed;
 }
