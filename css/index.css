@@ -205,9 +205,36 @@ a {
    border: 1px blue solid;
    width: 650px;
    justify-content: space-between;
-   
+ 
+}
 
+.London {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
 
+.aboutheader {
+    border-bottom: 2px black dashed;
+    padding-bottom: 20px;
+    
+    
+}
 
+.align {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.maincontent {
+    border: 1px red solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.strategybox {
+    border: 1px blue solid;
+    width: 45%;
     
 }
