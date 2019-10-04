@@ -246,5 +246,6 @@ a {
 
 .toptwoboxes {
     display: flex;
+    justify-content: space-between;
     
 }
