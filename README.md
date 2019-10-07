@@ -34,13 +34,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML refers to a set of elements designed for the sole purpose of adding more meaning to the overall layout of a webpage. Instead of just having a page full of <div> containers which are generic text containers, it gives your page some meaning. This is useful for Search Engine Optimisation as search engines like google use algorithms that look for meaning in our html files, those that have more of these tags tend to do better. Examples include: <header>, <article>, <figure>, <footer>, <p>, <section>, <nav>, <aside> tags.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Two differences between display: block and inline. Block disrupts the flow of the content and takes up all available space stretching to the left and right. Whereas inline only takes up as much space as its content without going outside the boundary of content. Another difference is inline ignores height and width, whereas you can control both on a block element, with the latter preventing it from stretching out to the edges of the container too much. 
+
 
 3. What are the 4 areas of the box model?
 
+padding, border, margin, content 
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to developer teams because generally speaking it is used to monitor and control changes made. It allows the following:
+-parallel development: changes can be made at the same time as people are able to create their own branches from the master to make their changes on their own computer without creating lots of different files
+-keeping track of your work: adds, commits and pushing allows you to keep track of changes so you are able to go back in time to an earlier commit if wanted to re-visit or look at the changes between two commits.
+-other people are able to look at your branch and see if the changes made are correct or worthy of adding to the master branch. For example if someone was working on designing a new feature in an application- without changing the master branch, meaning that users would still be able to be able to use the application. 
+-it is open source which means everyone can see the code used to make it which means developers and developer teams can work to improve git if needed 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
