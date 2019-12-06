@@ -407,11 +407,17 @@ a {
     padding-top: 20px;
 }
 
+form {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 	
 @media (max-width: 500px) {
 	.servicesnavigation{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	
 }
 .container {
@@ -470,6 +476,7 @@ footer {
 form {
     padding-left: 20px;
     padding-bottom: 20px;
+  
 }
 
 }
